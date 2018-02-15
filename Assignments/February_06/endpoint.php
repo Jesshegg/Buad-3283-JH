@@ -8,7 +8,7 @@
   </body>
   <?php
   echo 'Name:'.$_POST["Name"].'<br>';
-  echo 'Email Address:'.$_POST["EmailAddress"].'<br>';
-  echo 'Telephone Number:'.$_POST["TelephoneNumber"].'<br>';
+  echo 'Email:'.$_POST["Email"].'<br>';
+  echo 'Phone Number:'.$_POST["PhoneNumber"].'<br>';
   echo 'Comments:'.$_POST["Comments"];
   ?>

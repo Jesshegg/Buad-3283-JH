@@ -4,7 +4,7 @@
     <body>
       <fieldset>
       <legend>Contact information</legend>
-      <form action="" method="get">
+      <form action="endpoint.php" method="post">
         <P>Name:
           <input type="text" name="Name" size="15" placeholder="Name..." />
         </p>

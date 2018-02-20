@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
     <body>
       <fieldset>
       <legend>Contact information</legend>

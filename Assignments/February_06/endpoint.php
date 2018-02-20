@@ -1,5 +1,7 @@
 <?php
 session_start();
+ini_set('display_errors',1);
+error_reporting(E_ALL);
 foreach ($_POST as $key => $value) {
       $_SESSION[$key] = $value;
   }
@@ -10,7 +12,7 @@ foreach ($_POST as $key => $value) {
   </head>
   <body>
     <p>
-      <?php>
+      <?php
         echo 'Hi, ' . $_SESSION["Name"] . 'Thank you for submitting this form.'
       ?>
     </P>

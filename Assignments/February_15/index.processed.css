@@ -1,0 +1,40 @@
+body {
+  background: #eee;
+  color: #007acc;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+ul li {
+  color: blue;
+  text-transform: uppercase;
+  list-style: decimal;
+}
+
+p {
+  margin-bottom: 20px;
+  color: green;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.alert {
+  color: red;
+}
+
+.bold.alert {
+  border: 10px dotted red;
+  padding: 30px;
+  background: rgba(122, 101, 101, 0.1);
+}
+
+.left {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
